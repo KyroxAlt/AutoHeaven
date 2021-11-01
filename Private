@@ -1,0 +1,6 @@
+repeat wait() until game.Players.LocalPlayer and 
+game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Name
+wait(0.5)
+if game.PlaceId == 3552157537 then
+    game:GetService("TeleportService"):Teleport(3618359401,game.Players.LocalPlayer)
+    end
